@@ -1,0 +1,51 @@
+@media screen and (max-width: 1100px) {
+    .offer__list-item {
+      grid-template-columns: 1fr 1fr;
+    }
+    .sidebar{
+      width: 12rem;
+    }
+    .sidebar_navigation .logo{
+      width: 9rem;
+    }
+    .sidebar_navigation .icones{
+      width: 9rem;
+    }
+    .library{
+      width: 10.625rem;
+      height: 20rem;
+    }
+
+    .library_content{
+      width:10.625rem;
+    }
+
+    .library_content .library_button .icones{
+      width: 10rem;
+    }
+    .section_playlist{
+      width: 9.375rem;
+      height: 9.375rem;
+      padding: 10px;
+      margin-top:1rem;
+    }
+
+    .section_playlist_content{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 0.6rem;
+    }
+    .section_playlist_button{
+      margin-left: 0;
+      width: 9rem;
+      height: 2rem;
+      align-items: center;
+      padding:1px;
+      margin-top: 1.25rem;
+    }
+    
+    .languages .languages_button{
+      margin: 0.75rem 0 0 0;
+    }
+}
